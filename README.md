@@ -4,7 +4,7 @@
 
 *This is work in progress.*
 
-This is demo code for a hating system. It uses the [Accra counter module](https://www.grodansparadis.com/accra/accra.html) and the [Vilnius A/D module](http://www.grodansparadis.com/vilnius/vilnius.html) from [Grodans Paradis AB](https://www.grodansparadis.com). 
+This is demo code for a heating system. It uses the [Accra counter module](https://www.grodansparadis.com/accra/accra.html) and the [Vilnius A/D module](http://www.grodansparadis.com/vilnius/vilnius.html) from [Grodans Paradis AB](https://www.grodansparadis.com). 
 
 This code is part of the [VSCP project](https://www.vscp.org).
 
