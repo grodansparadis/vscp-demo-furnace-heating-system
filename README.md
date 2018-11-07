@@ -1,4 +1,4 @@
-# VSCP heating system demo
+# VSCP furnace heating system demo
 
 ![VSCP Logo](https://www.vscp.org/images/logo_200.png)
 

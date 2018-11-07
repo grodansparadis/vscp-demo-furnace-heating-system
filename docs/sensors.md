@@ -1,53 +1,50 @@
 # Sonsors and i/o heating system
 
 
-## Counter
-
-  - Flow meter water in
-  - Flow meter heat water out
-
-## Temperature
+## Kelvin NTC10K
 
  - Core temperature furnace. (1)
- - Core temperature water heater. (1)
- - Boiler temperature water heater. (1)
- - Warm water out flow temperature. (1)
- - Furnace heater return. (1)
- - Furnace smoke gas sensor low. (2)
- - Furnace smoke gas sensor high. (2)
+ - Furnace heater out.
+ - Furnace heater return.
  - Room furnace. (1)
- - Room Washing. (2)
- - Room storage cellar 1 (2)
- - Room Storage cellar 2 (2)
+  
 
+## MAX6675
+ - Furnace smoke gas sensor low. (1)
+ - Furnace smoke gas sensor high. (2)
 
-## Hygrometer
- - Storage cellar 1
- - Storage cellar 2
 
 ## Digital Outputs
- - Alarm 
- - Water heater element 1/Led
- - Water heater element 2/Led
- - Water heater element 3/Led
+ - Water heater element LED (1)
  - Valve incoming water (future)
  - Valve furnace -> water heater (future)
 
 
 ## Digital Inputs
- - Fire alarm
- - Button - Forward
- - Button - Up
- - Button - Down
- - Button - Enter
- - Motor Pellets transport
+ - Fire alarm (4)
+ - Button - Forward (5)
+ - Button - Up (6)
+ - Button - Down (7)
+ - Button - Enter (8)
+ - Motor Pellets transport (9)
+ - FAN furnace
+- Heater furnace
 
 ## Other
 
 - LED display in furnace box
 - CO sensor
+- 
 
-
+## Hygrometer
+ - Storage cellar 1
+ - Storage cellar 2
+- 
+## Raspberry Pi digital outputs
+ - Water heater element 2/LED (2)  - Furnace Active
+ - Water heater element 3/LED (3)  - Transport
+ - RED
+ - GREEN
 
 ## pins used on Raspberry Pi (Pi5)
 
