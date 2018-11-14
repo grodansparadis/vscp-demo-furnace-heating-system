@@ -79,18 +79,18 @@ See [pinout](https://pinout.xyz/#)
 * 8   TXDO
 * 9   GND
 * 10  RXD0
-* 11  BCM 17
-* 12  BCM 27
-* 13  BCM 22
+* 11  BCM 17 - Water heater element LED
+* 12  BCM 18
+* 13  BCM 27 - Furnace Active LED
 * 14  GND
-* 15
-* 16  BCM 23
+* 15  BCM 22 - Furnace Heater LED
+* 16  BCM 23 - Furnace FAN
 * 17  +3.3V
-* 18
+* 18  BCM 25 - Furnace Transport 1
 * 19  MOSI SPI MAX6675A Temperature 
 * 20  GND
 * 21  MISO SPI MAX6675A Temperature
-* 22  
+* 22  BCM 25 - Furnace Transport 2
 * 23  SCLK SPI MAX6675A Temperature
 * 24  CE0 SPI MAX6675A Temp 1
 * 25  GND
@@ -109,3 +109,15 @@ See [pinout](https://pinout.xyz/#)
   38
   39  GND
   40
+
+## Connectors Viking 9990 
+
+ - Furnace transport (IO-7) (Origin is 24V)
+ - Furnace Fan (IO-8)       (Origin is 24V)
+ - Furnace heater (IO-9)    (Origin is 24V)
+ - GND
+  
+ - Furnace IR LED (AD-0)    0-10V
+ - Furnace overheat (AD-1)  0-10V
+ - GND
+ - GND
